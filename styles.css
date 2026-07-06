@@ -1,0 +1,38 @@
+/* styles for todo list app */
+body {
+    font-family: Arial, sans-serif;
+}
+
+#todo-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#todo-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+#todo-list li:last-child {
+    border-bottom: none;
+}
+
+#new-todo {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#add-btn {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#add-btn:hover {
+    background-color: #3e8e41;
+}
